@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularz</title>
+    </head>
+    <body>
+        <form>
+            <h4>Formularz</h4>
+
+            <label for="Imie">Imię:</label><br>
+            <input id="Imie" type="text" name="Imie" value="Maksym"><br>
+
+            <label for="Nazwisko">Nazwisko:</label><br>
+            <input id="Nazwisko" type="text" name="Nazwisko" value="Zinenko"><br>
+
+            <label for="Email">Email:</label><br>
+            <input id="Email" type="email" name="Email" value="123@gmail.com"><br>
+
+            <label for="Haslo">Hasło:</label><br>
+            <input id="Haslo" type="password" name="Haslo" value="qwerty"><br>
+
+            <label for="Plec">Płeć:</label><br>
+            <input id="Plec" type="radio" name="Plec" value="Mezczyzna" checked>Męzczyzna<br>
+            <input id="Plec" type="radio" name="Plec" value="Kobieta">Kobieta<br>
+            <input id="Plec" type="radio" name="Plec" value="Nw">Nw<br>
+
+            <label for="Ukryte">Ukryte:</label><br>
+            <input id="Ukryte" type="hidden" name="Ukryte"  value="abc123"><br>
+
+            <label for="Zgoda1">Ulubiony kolor:</label><br>
+            <input id="Zgoda1" type="checkbox" name="Zgoda1" value="red" checked>Red<br>
+            <input id="Zgoda2" type="checkbox" name="Zgoda2" value="blue">Blue<br>
+            <input id="Zgoda3" type="checkbox" name="Zgoda3" value="green">Green<br>
+
+            <label for="city">Miasto:</label><br>
+            <select id="city" type="city"><br>
+                <option value="Warszaw">Warszawa</option>
+                <option value="Krakow">Kraków</option>
+                <option value="Szebrzeszyn" selected>Szebrzeszyn</option>
+            </select>
+
+            <input type="submit" value="Wyślij dane"><br>
+        </form>
+    </body>
+</html>
